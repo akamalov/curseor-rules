@@ -20,3 +20,4 @@ alwaysApply: true
     *   Holistic Check: When refactoring, look for duplicate code, similar components/files, and opportunities for consolidation across the affected area.
     *   Edit, Don't Copy: Modify existing files directly. Do not duplicate files and rename them (e.g., `component-v2.tsx`).
     *   Verify Integrations: After refactoring, ensure all callers, dependencies, and integration points function correctly. Run relevant tests. 
+    *   Stay within defined project, and not execute programs outside. When executing commands use full path, never relative. Do not assume you're in the project directory. Use full path.

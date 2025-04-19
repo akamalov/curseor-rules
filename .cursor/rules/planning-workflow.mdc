@@ -1,7 +1,7 @@
 ---
 description: Workflow for planning and architecture tasks (PLAN/Architect MODE).
 globs: []
-alwaysApply: true # Often relevant when starting new tasks
+alwaysApply: false
 ---
 ## 📝 Planning Workflow (PLAN/Architect MODE)
 
@@ -60,4 +60,5 @@ flowchart TD
         *   Reason its optimality compared to alternatives.
         *   State all assumptions, choices, decisions, and trade-offs.
         *   Restate the user's query if needed for clarity.
+        *   When creating a project, ask Cursor to include software stack versions and compatible module versions 
     *   **Validate Plan:** Before implementing, validate the solution plan. 

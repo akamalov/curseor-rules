@@ -1,7 +1,7 @@
 ---
 description: Workflow and principles for implementing code (ACT/Code MODE).
 globs: []
-alwaysApply: true # Often relevant when coding/modifying files
+alwaysApply: false
 ---
 ## 💻 Implementation Workflow (ACT/Code MODE)
 
@@ -66,6 +66,11 @@ flowchart TD
 
 **[Step 6: Optimize]**
     *   Optimize implemented code after all changes are tested and verified.
+
+**[Step 7: Checkpointing]**
+    *  Create named and numbered checkpoints after each successful milestone, phase.
+    *  Keep a track of each named and numbered checkpoints.
+    *  Commit and push out git changes 
 
 **<REFERENCE>**
 *   Reference relevant documentation and best practices. Use <WEB USE> if needed. 
