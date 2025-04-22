@@ -34,6 +34,7 @@ flowchart TD
         *   **<DEPENDENCY ANALYSIS>** Identify affected components, dependencies (local vs. core logic), affected functionalities, and cascading effects.
         *   **<FLOW ANALYSIS>** Conduct end-to-end flow analysis for the use case. Track data and logic flow.
         *   Document dependencies thoroughly.
+        *   Use Context 7
 
 **[Step 2: Plan Code]**
     *   **<PLAN CODE>**
@@ -49,6 +50,7 @@ flowchart TD
             *   Leverage AI for boilerplate, refactoring known patterns, syntax errors, test generation. Maintain human oversight for complex logic, architecture, security.
             *   Use incremental steps for complex tasks.
             *   AI Check-in: Before major suggestions, confirm understanding: "Confirming understanding: I've reviewed [source]. The goal is [goal], adhering to [constraint]. Proceeding with [step]."
+            *   Use Context 7
 
 **[Step 3: Make Changes]**
     *   **<MAKE CHANGES>**
