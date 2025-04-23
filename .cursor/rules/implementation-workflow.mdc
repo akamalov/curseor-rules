@@ -53,6 +53,7 @@ flowchart TD
             *   Use Context 7
             *   If you're using Python, ALWAYs use Python virtual environment
             *   If you're using NodeJS, use npm. Modularity and portability is the key!
+            *   Leverage Docker containers as much as you can
 
 **[Step 3: Make Changes]**
     *   **<MAKE CHANGES>**
