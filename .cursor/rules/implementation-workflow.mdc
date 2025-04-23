@@ -51,6 +51,8 @@ flowchart TD
             *   Use incremental steps for complex tasks.
             *   AI Check-in: Before major suggestions, confirm understanding: "Confirming understanding: I've reviewed [source]. The goal is [goal], adhering to [constraint]. Proceeding with [step]."
             *   Use Context 7
+            *   If you're using Python, ALWAYs use Python virtual environment
+            *   If you're using NodeJS, use npm. Modularity and portability is the key!
 
 **[Step 3: Make Changes]**
     *   **<MAKE CHANGES>**
@@ -60,7 +62,7 @@ flowchart TD
         *   **<SIMULATION VALIDATION>** Do not propose changes unless simulation passes and verifies functionality preservation. Fix simulation breaks before proceeding.
         *   Implement only if simulation passes.
         *   After adding a major feature or completing a milestone, update [project-name].md.
-        *   Document the entire database schema in [project-name].md.
+        *   Document the entire database schema in docs/planning/[project-name]-planning.md.
 
 **[Step 4: Testing]**
     *   Perform **<TESTING>** (see `testing.mdc`).
