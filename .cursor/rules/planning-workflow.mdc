@@ -61,4 +61,24 @@ flowchart TD
         *   State all assumptions, choices, decisions, and trade-offs.
         *   Restate the user's query if needed for clarity.
         *   When creating a project, ask Cursor to include software stack versions and compatible module versions 
+        *   Records software stack, versions and module dependencies and their versions
+        *   Document the entire database schema in [project-name].md.
+        *   After adding a major feature or completing a milestone, update [project-name].md.
     *   **Validate Plan:** Before implementing, validate the solution plan. 
+
+** 4. System Patterns:**
+    *  **Structured Approach:**
+        * Documents the system architecture
+        * Records key technical decisions
+        * Lists design patterns in use
+        * Records current features
+        * Documents the evolution of project decisions 
+        * Notes technical constraints
+        * Explains component relationships
+        * Lists known issues and limitations
+        * Describes development setup
+        * Lists technologies and frameworks used
+        * Records current status of features
+        * Tracks what works and what's left to build
+Example: "User authentication complete; inventory management 80% complete; reporting not started"
+Example: "Using Redux for state management with a normalized store structure"

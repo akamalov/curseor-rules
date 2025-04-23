@@ -59,6 +59,8 @@ flowchart TD
         *   **<SIMULATION ANALYSIS>** Perform dry runs/trace calls to analyze impact on expected and edge cases. Generate feedback on side effects.
         *   **<SIMULATION VALIDATION>** Do not propose changes unless simulation passes and verifies functionality preservation. Fix simulation breaks before proceeding.
         *   Implement only if simulation passes.
+        *   After adding a major feature or completing a milestone, update [project-name].md.
+        *   Document the entire database schema in [project-name].md.
 
 **[Step 4: Testing]**
     *   Perform **<TESTING>** (see `testing.mdc`).
@@ -74,5 +76,10 @@ flowchart TD
     *  Keep a track of each named and numbered checkpoints.
     *  Commit and push out git changes 
 
+**[Step 8: Progress-Recording]**
+    *  Record successfull implementation phases and steps in [project-name]-implemented.md document
+    *  Record remaining implementation phases and steps in [project-name]-todo.md document
+    *  Record technology stack in [project-name]-technology-stack.md
+    *  Record software stack,modules and versions in [project-name]-technology-stack.md
 **<REFERENCE>**
 *   Reference relevant documentation and best practices. Use <WEB USE> if needed. 
