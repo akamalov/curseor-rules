@@ -51,7 +51,7 @@ flowchart TD
             *   Use incremental steps for complex tasks.
             *   AI Check-in: Before major suggestions, confirm understanding: "Confirming understanding: I've reviewed [source]. The goal is [goal], adhering to [constraint]. Proceeding with [step]."
             *   Use Context 7
-            *   If you're using Python, ALWAYs use Python virtual environment
+            *   If you're using Python, ALWAYs create and use Python virtual environment. Create virtual environment first and work off this virtual environment
             *   If you're using NodeJS, use npm. Modularity and portability is the key!
             *   Leverage Docker containers as much as you can
 
