@@ -64,6 +64,7 @@ flowchart TD
         *   Implement only if simulation passes.
         *   After adding a major feature or completing a milestone, update [project-name].md.
         *   Document the entire database schema in docs/planning/[project-name]-planning.md.
+        *   User project folder as current working directory
 
 **[Step 4: Testing]**
     *   Perform **<TESTING>** (see `testing.mdc`).
