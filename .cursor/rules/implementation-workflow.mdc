@@ -65,6 +65,10 @@ flowchart TD
         *   After adding a major feature or completing a milestone, update [project-name].md.
         *   Document the entire database schema in docs/planning/[project-name]-planning.md.
         *   User project folder as current working directory
+        *   If chat session is getting too big, do the following:
+                ** Update tasks/implemented.md file on phase/tasks that have already been implemented
+		** Update tasks/todo.md file on phase/tasks yet to be implemented
+                ** Create a detailed summarization of tasks that has been completed and tasks that needs to be implemented and move into a new chat session with descriptive name
         *   If you have updated the file, please say so. Example: "I have updated the file xxxx". If you want me to update it, state it clearly. Example: "Please update the following file xxxx". Also, If you do want me to modify a file because you cannot, print out file fully. I will overwrite it. 
    
 **[Step 4: Testing]**
