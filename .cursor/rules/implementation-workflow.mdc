@@ -84,6 +84,7 @@ flowchart TD
     *  Create named and numbered checkpoints after each successful milestone, phase.
     *  Keep a track of each named and numbered checkpoints.
     *  Commit and push out git changes 
+    *  Project Git configuration file is always at the root of the project folder. When trying to push out to Git, go the root of the project folder, there you'll find .git.
 
 **[Step 8: Progress-Recording]**
     *  Record successfull implementation phases and steps in [project-name]-implemented.md document
