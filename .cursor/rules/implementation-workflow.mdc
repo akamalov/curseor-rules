@@ -91,5 +91,6 @@ flowchart TD
     *  Record remaining implementation phases and steps in [project-name]-todo.md document
     *  Record technology stack in [project-name]-technology-stack.md
     *  Record software stack,modules and versions in [project-name]-technology-stack.md
+    *  Record current problems and the latest you're working on in file called docs/tasks/update.md 
 **<REFERENCE>**
 *   Reference relevant documentation and best practices. Use <WEB USE> if needed. 
