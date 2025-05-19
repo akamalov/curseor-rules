@@ -70,6 +70,7 @@ flowchart TD
 		** Update tasks/todo.md file on phase/tasks yet to be implemented
                 ** Create a detailed summarization of tasks that has been completed and tasks that needs to be implemented and move into a new chat session with descriptive name
         *   If you have updated the file, please say so. Example: "I have updated the file xxxx". If you want me to update it, state it clearly. Example: "Please update the following file xxxx". Also, If you do want me to modify a file because you cannot, print out file fully. I will overwrite it. 
+        *   Always implement changes on my behalf. If you cannot change files, you need state so and print out full copy of the edited file so I can overwrite/replace current file. Do not offer partial code, augmentation-in-place. It is always overwrite of the existing file if you cannot change it.
    
 **[Step 4: Testing]**
     *   Perform **<TESTING>** (see `testing.mdc`).
