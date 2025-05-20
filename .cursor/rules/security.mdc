@@ -32,6 +32,7 @@ alwaysApply: true # Security is always a concern
     *   Missing rate limiting.
     *   Inadequate error handling/logging.
     *   Unsafe data exposure.
+    *   Sanitize all user inputs to prevent XSS attacks and never use innerHTML with user-generated content.
 *   **DO NOT:**
     *   Make cosmetic/performance changes during security review.
     *   Modify unrelated code.
