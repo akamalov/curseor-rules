@@ -90,6 +90,12 @@ flowchart TD
 **[Step 8: Progress-Recording]**
     *  Record remaining implementation phases and steps in [project-name]-todo.md document with not complete marks, such as [ ]
     *  Record successfull implementation phases and steps in [project-name]-implemented.md document, marking tasks as complete [X]
+    *  When asking for user input for displayed options, create options like this:
+          - Example:
+             1. This is first option
+                 a) This is sub-option A
+                 b) This is sub-option B
+          This is all done in order to correct identify which suboption a user can select (i.e., "Option 1a" or "Option 1b")
     *  Record technology stack in [project-name]-technology-stack.md
     *  Record software stack,modules and versions in [project-name]-technology-stack.md
     *  Record current problems and the latest you're working on in file called docs/tasks/update.md 
